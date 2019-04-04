@@ -1,6 +1,7 @@
 # Your code goes here!
 class Dog
-  def name=(name)
+
+  def name(name)
     @name = name
   end
   
@@ -12,5 +13,7 @@ class Dog
    puts "woof!"
   end
 end
+
 fido = Dog.new
 fido.name = "Fido"
+
